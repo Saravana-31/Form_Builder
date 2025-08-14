@@ -79,7 +79,7 @@ export function FormDashboard({ forms }: FormDashboardProps) {
       <div className="flex items-center justify-between">
         <div>
           <h2 className="text-xl font-semibold text-gray-900">Your Forms</h2>
-          <p className="text-gray-600">Manage and edit your custom forms</p>
+          <p className="text-gray-600">Manage and edit your custom forms. (Note: For Editing already created forms, click edit and make changes and during save Use a new form name.)</p>
         </div>
         <Badge variant="secondary">{formList.length} forms</Badge>
       </div>
